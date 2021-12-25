@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yew = "0.18.0"
+yew = "0.19.0"
 wasm-bindgen = {version = "0.2.67", features = ["serde-serialize"]}
 js-sys = "0.3.44"
+web3 = {version="0.17.0", features = ["wasm", "eip-1193"], default-features = false}
